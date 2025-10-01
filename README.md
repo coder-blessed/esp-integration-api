@@ -110,5 +110,3 @@ Response:
 * **Mailchimp API**
 * **GetResponse API**
 * **dotenv** for env configs
-
----
