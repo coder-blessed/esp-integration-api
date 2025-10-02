@@ -1,5 +1,6 @@
 
 
+
 # ESP Integration API (Mailchimp + GetResponse)
 
 This is a **Node.js + Express REST API** that allows users to connect to and retrieve data from their **Mailchimp** and **GetResponse** accounts.
