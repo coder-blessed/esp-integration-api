@@ -23,7 +23,7 @@ exports.getLists = async (apiKey) => {
         const dataCenter = apiKey.split("-")[1];
         const response = await axios.get(`https://${dataCenter}.api.mailchimp.com/3.0/lists`,{
         auth: {
-        username: "anystring", // can be any string, Mailchimp ignores it
+        username: "anystring", 
         password: apiKey
       }
     });
