@@ -1,3 +1,4 @@
+
 const Integration = require("../models/Integration");
 const mailchimpService = require("../services/mailchimpService");
 const getResponseService = require("../services/getResponseService");
@@ -50,4 +51,5 @@ exports.getLists = async (req, res) => {
         res.status(500).json({error:error.message});
     }
     
+
 }
